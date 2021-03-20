@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "dev": "wmr --http2",
+    "build": "wmr build --prerender",
+    "serve": "wmr serve --http2"
+  },
+  "eslintConfig": {
+    "extends": "preact"
+  },
+  "alias": {
+    "react": "preact/compat",
+    "react-dom": "preact/compat"
+  },
+  "dependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-preact": "^1.1.3",
+    "preact": "^10.5.12",
+    "preact-iso": "^1.0.0",
+    "rollup-plugin-html-minifier": "^1.1.0"
+  },
+  "devDependencies": {
+    "wmr": "^1.2.0"
+  }
+}
